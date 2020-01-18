@@ -1,6 +1,6 @@
 Name:           redland
 Version:        1.0.16
-Release:        3%{?dist}
+Release:        6%{?dist}
 Summary:        RDF Application Framework
 
 Group:          System Environment/Libraries
@@ -142,6 +142,16 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.0.16-6
+- Mass rebuild 2014-01-24
+
+* Wed Jan 15 2014 Honza Horak <hhorak@redhat.com> - 1.0.16-5
+- Rebuild for mariadb-libs
+  Related: #1045013
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.16-4
+- Mass rebuild 2013-12-27
+
 * Tue May 28 2013 Lukáš Tinkl <ltinkl@redhat.com> 1.0.16-3
 - use -fno-strict-aliasing
 
